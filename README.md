@@ -57,5 +57,5 @@ I welcome contributions to enhance the NariSaksham website. To contribute, follo
 
 ## Contact
 
-For more information, please contact me at faizahmed824@gmail.com
+For more information, please contact me at jatinkushwaha8009@gmail.com
 #
