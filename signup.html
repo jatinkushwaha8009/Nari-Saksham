@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NariSaksham: Registration</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- favicon -->
+      <link rel="shortcut icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container, .signup-container {
+    background-color: #fff;
+    padding: 80px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label, input, button {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <img src="images/NariSaksham (1).png" width="850" height="850">
+    <div class="signup-container">
+        <h3>Registration / Sign Up</h3>
+       <form action="signup.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="number">Mobile Number:</label>
+            <input type="number" id="number" name="number" required>
+            <label for="number">Adhaar Card Number:</label>
+            <input type="number" id="number" name="number" required>
+            <label for="State">Select Your State</label>
+            <select id="State" name="State">
+                <option value="AN">Andaman and Nicobar Islands
+
+                </option>
+                <option value="AP">Andhra Pradesh
+
+                </option>
+                <option value="ARP">Arunachal Pradesh
+
+                </option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CG">Chhattisgarh
+
+                </option>
+                <option value="CH">Chandigarh
+
+                </option>
+                <option value="DH">Dadra and Nagar Haveli
+
+                </option>
+                <option value="DD">Daman and Diu
+
+                </option>
+                <option value="DL">Delhi
+
+                </option>
+                <option value="GA">Goa</option>
+                <option value="GJ">Gujarat
+
+                </option>
+                <option value="HR">Haryana</option>
+                <option value="HP">Himachal Pradesh
+
+                </option>
+                <option value="JK">Jammu and Kashmir
+
+                </option>
+                <option value="JH">Jharkhand
+
+                </option>
+                <option value="KA">Karnataka
+
+                </option>
+                <option value="KL">Kerala
+
+                </option>
+                <option value="LD">Lakshadweep
+
+                </option>
+                <option value="MP">Madhya Pradesh
+
+                </option>
+                
+                <option value="MH">Maharashtra
+
+                </option>
+                <option value="MN">Manipur
+
+                </option>
+                <option value="ML">Meghalaya
+
+                </option>
+                <option value="MZ">Mizoram</option>
+                <option value="NL">Nagaland</option>
+                <option value="OR">Orissa</option>
+                <option value="PB">Punjab
+
+                </option>
+                <option value="PY">Pondicherry
+
+                </option>
+                <option value="RJ">Rajasthan
+
+                </option>
+                <option value="SK">Sikkim</option>
+                <option value="TN">Tamil Nadu
+
+                </option>
+                <option value="TN">Tamil Nadu
+
+                </option>
+                <option value="TR">Tripura
+
+                </option>
+                <option value="TR">Tripura</option>
+                <option value="UK">Uttarakhand
+
+                </option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="WB">West Bengal
+
+                </option>
+                
+                
+               
+                
+                
+             
+        
+            </select>
+            <label for="number">Area Pin Code:</label>
+            <input type="number" id="number" name="number" required>
+            <label for="skills">Select Your Skills:</label>
+            <select id="skills" name="skills" multiple>
+                <option value="job1">Job 1</option>
+                <option value="job2">Job 2</option>
+                <option value="job3">Job 3</option>
+                <!-- Add more options for different job skills -->
+            </select>
+            <button type="submit">Sign Up</button>
+        </form>
+        
+        <p>Already have an account? <a href="login.html">Login</a></p>
+        
+    </div>
+    
+</body>
+</html>
